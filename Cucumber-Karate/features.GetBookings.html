@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("7d8abfc1-8f2f-4560-af7f-09fb815f6ed5",{name:"280707"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>features.GetBookings</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-08-02 05:00:34 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>verify user can retrieve list of  bookings</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/GetBookings.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Get list of booking</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">verify user can retrieve list of  bookings</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1731</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url host</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1728</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">17:00:34.358 [print] &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Restful-Booker&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Cabin&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Muli&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        h1, h2, h3, h4, h5 {
+            font-family: &#39;Cabin&#39;, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: &#39;Muli&#39;, Arial, Helvetica, sans-serif;
+        }
+	&lt;/style&gt;
+
+  &lt;!-- Google tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;jumbotron p-4&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;h1&gt;Welcome to Restful-Booker&lt;/h1&gt;
+            &lt;p&gt;An API playground created by &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot;&gt;Mark Winteringham&lt;/a&gt; for those wanting to learn more about API testing and tools&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12 text-center&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://twitter.com/2bittester&quot; alt=&quot;Twitter&quot;&gt;@2bittester&lt;/a&gt; | &lt;a href=&quot;http://mwtestconsultancy.co.uk/&quot; alt=&quot;MWTestConsultancy Website&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://github.com/mwinteringham/restful-booker&quot; alt=&quot;API Code&quot;&gt;Code&lt;/a&gt; | &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;API Docs&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+        	&lt;p&gt;Welcome to Restful-booker an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;C&lt;/span&gt;reate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;R&lt;/span&gt;ead &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;U&lt;/span&gt;pdate &lt;span style=&quot;color: red; font-weight: bold&quot;&gt;D&lt;/span&gt;elete Web API that comes with authentication features and loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with &lt;span style=&quot;font-weight: bold&quot;&gt;and resets itself every 10 minutes back to that default state.&lt;/span&gt; Restful-booker also comes with &lt;a href=&quot;/apidoc/index.html&quot; alt=&quot;API documentation&quot;&gt;detailed API documentation&lt;/a&gt; to help get you started with your API testing straight away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-12&quot;&gt;
+				    &lt;h2&gt;Support me and Restful-Booker&lt;/h2&gt;
+				    &lt;br /&gt;
+				    &lt;p&gt;Restful-booker is a free to use API for practising testing, but if you enjoy using this API please consider supporting me by purchasing one of my books. Alternatively you can support &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; who host this API by going Pro.&lt;/p&gt;
+          &lt;/div&gt;  
+      &lt;/div&gt;
+      &lt;div class=&quot;row text-center&quot;&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Buy AI-Assisted Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://bit.ly/ai-testing&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/ai-assisted-testing.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+          &lt;h4 class=&quot;pb-2&quot;&gt;Buy Testing Web APIs&lt;/h4&gt;
+          &lt;a href=&quot;https://bit.ly/testwebapis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/testing-web-apis.jpg&quot; alt=&quot;Testing Web APIs&quot; class=&quot;img img-fluid w-50 border border-light&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+            &lt;h4 class=&quot;pb-2&quot;&gt;Go Pro with Ministry of Testing&lt;/h4&gt;
+            &lt;a href=&quot;https://www.ministryoftesting.com/go-pro?utm_medium=web&amp;utm_source=restful-booker&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/motpro.png&quot; alt=&quot;Boost your learning, go Pro&quot; class=&quot;img img-fluid w-75&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
